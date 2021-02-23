@@ -1,0 +1,86 @@
+/*
+    #   @Property   EAX Romania, all rights reserved
+    #   @CopyRight  Copyright (c) 2021 EAX Romania
+    #   @Author     Alexandru B.
+    #   @GitHub     https://github.com/eaxro
+    #   @LinkedIN   https://linkedin.com/in/eaxro
+    #   @FreeLancer https://www.freelancer.com/u/eaxro
+    #   @WebSite    https://code.eax.ro
+    #   @Version    v1.0
+*/
+body{
+    background-color:black;
+    background-image: url("https://files.eax.ro/img/background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    text-align: center;
+}
+textarea{
+    width: 75em;
+    height: 10em;
+}
+#content{
+    margin: auto;
+    width: 70em;
+    text-align: left;
+    padding-top: 2em;
+}
+#content div#pEaxList,
+#content div#pEaxPattern,
+#content div#pEaxTitle,
+#content div#pEaxDataDiv{
+    margin: auto;
+    text-align: center;
+    padding: 0.5em;
+}
+#content div.DvList,#content div.DvPattern{
+    margin: auto;
+    text-align: center;
+    padding: 0.5em;
+    position: relative;
+}
+#content b{
+    color:white;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 0.5em;
+}
+textarea#pEaxData{
+    width: 75em;
+    height: 40em;
+    background-color: teal;
+    color:white;
+}
+#del{
+   position:absolute;
+   right: 54px;
+   top:47px;
+   color: white;
+   cursor: pointer;
+   padding: 0.25em;
+   border-radius: 0.25em;
+   font-size: 0.75em;
+   background-color:red;
+}
+#del:hover{
+    background-color: blueviolet;
+}
+#eLogo {
+  display: block;
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  width: 100px;
+  height: 57px;
+  background-image: url("https://files.eax.ro/img/logo.gif");
+  background-color:red;
+  background-size:100% auto;
+  z-index: 7;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 0.25em;
+}
